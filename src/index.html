@@ -9,7 +9,20 @@
 
     <body>
         <header>
-            Header
+            <div id="search-container">
+                <div class="logo-container">
+                    <a href="/">
+                        <img src="/public/Logo_Green.png" alt="로고" class="logo">
+                    </a>
+                </div>
+
+                <form id="search-form" onSubmit="return false">
+                    <input class="search-input" name="searchText" type="text" aria-label="검색할 내용을 입력해주세요">
+                    <button class="search-button green-button" type="submit">
+                        🔍
+                    </button>
+                </form>
+            </div>
         </header>
 
         <main>
